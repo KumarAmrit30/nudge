@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Nudge — AI commerce concierge",
   description:
-    "A merchant catalog buyers can browse today, with an AI shopping assistant coming next.",
+    "A merchant catalog with a chat assistant that recommends only in-stock, in-budget products from seed data.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

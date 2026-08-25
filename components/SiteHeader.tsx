@@ -14,6 +14,9 @@ export function SiteHeader() {
           <Link href="/products" className="hover:text-zinc-900">
             Products
           </Link>
+          <Link href="/buy" className="hover:text-zinc-900">
+            Assistant
+          </Link>
         </nav>
       </div>
     </header>

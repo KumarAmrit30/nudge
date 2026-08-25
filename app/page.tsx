@@ -12,13 +12,19 @@ export default function HomePage() {
       <p className="mt-6 max-w-xl text-lg leading-7 text-zinc-600">
         Buyers describe what they need. Nudge searches your products, explains
         trade-offs with real prices and stock, and helps them check out. This
-        Phase 1 build is a searchable catalog: filter seeded products and open
-        a detail page.
+        Phase 2 build includes a chat assistant over the same catalog. Prices
+        and stock still come from seed data — never from the model.
       </p>
-      <div className="mt-10">
+      <div className="mt-10 flex flex-wrap gap-3">
+        <Link
+          href="/buy"
+          className="inline-flex items-center rounded-full bg-zinc-900 px-6 py-3 text-sm font-medium text-white hover:bg-zinc-700"
+        >
+          Ask the assistant
+        </Link>
         <Link
           href="/products"
-          className="inline-flex items-center rounded-full bg-zinc-900 px-6 py-3 text-sm font-medium text-white hover:bg-zinc-700"
+          className="inline-flex items-center rounded-full border border-zinc-300 bg-white px-6 py-3 text-sm font-medium text-zinc-900 hover:bg-zinc-100"
         >
           Browse products
         </Link>
@@ -34,8 +40,8 @@ export default function HomePage() {
         <li className="rounded-xl border border-zinc-200 bg-white p-5">
           <h2 className="font-semibold text-zinc-900">Buyer journey</h2>
           <p className="mt-2 text-sm leading-6 text-zinc-600">
-            Natural-language shopping, one optional add-on, and Razorpay Test Mode
-            checkout are planned for later phases.
+            Natural-language shopping is available now. One optional add-on and
+            Razorpay Test Mode checkout are later phases.
           </p>
         </li>
         <li className="rounded-xl border border-zinc-200 bg-white p-5">

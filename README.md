@@ -1,8 +1,8 @@
 # Nudge — AI Growth & Agentic Commerce
 
-Hackathon-ready AI commerce concierge for merchants. This repository is at **Phase 1: catalog and deterministic search**.
+Hackathon-ready AI commerce concierge for merchants. This repository is at **Phase 2: AI buyer MVP**.
 
-A buyer will later describe a need in natural language. The agent will search this trusted merchant catalog, recommend products with data-grounded reasons, take explicit cart confirmation, and complete Razorpay Test Mode checkout. Phase 1 is a searchable local catalog with no LLM.
+A buyer describes a need in natural language. The assistant extracts intent, searches the trusted merchant catalog, and recommends up to three in-stock products that fit a stated budget. Product facts come from seed data, not from the model. Cart, upsell, and Razorpay checkout are later phases.
 
 ## Setup
 
@@ -13,11 +13,13 @@ A buyer will later describe a need in natural language. The agent will search th
    npm install
    ```
 
-3. Copy environment placeholders (optional; the app runs without these values):
+3. Copy environment placeholders:
 
    ```bash
    cp .env.example .env.local
    ```
+
+   For the chat assistant, set `GEMINI_API_KEY` in `.env.local` (server-side only). Leave it empty to use browse/search without the assistant. Optional: `GEMINI_MODEL=gemini-2.5-flash`.
 
    Do not put real API keys in git. `.env.example` lists names only.
 
@@ -27,25 +29,30 @@ A buyer will later describe a need in natural language. The agent will search th
    npm run dev
    ```
 
-5. Open [http://localhost:3000](http://localhost:3000). Browse [Products](http://localhost:3000/products). Try:
+5. Open [http://localhost:3000](http://localhost:3000).
+   - Catalog: [Products](http://localhost:3000/products) — works without Gemini.
+   - Chat: [Assistant](http://localhost:3000/buy) — requires `GEMINI_API_KEY`.
+   - Try: `laptop under ₹80,000 with 16 GB RAM`
 
-   `laptop under ₹80,000 with 16 GB RAM`
-
-## Architecture (Phase 1)
+## Architecture (Phase 2)
 
 ```text
 Browser
-  → Next.js pages and GET /api/catalog/*
-  → searchProducts / getProductDetails / getCompatibleAddOns
-  → data/products.json  (committed seed; only runtime source of truth)
+  → /products  → searchProducts (no LLM)
+  → /buy       → POST /api/buyer/chat
+       → Gemini intent JSON (Zod)
+       → searchProducts + getProductDetails
+       → server stock/budget filter, max 3
+       → Gemini intro + selectedProductIds + reasonKeys (Zod)
+       → cards / Why this? from catalog fields only
+  → data/products.json  (catalog source of truth)
 ```
 
 - **Frontend:** Next.js (App Router) + TypeScript + Tailwind CSS.
-- **Catalog:** Static JSON in `data/products.json` (~50–100 electronics products). Prices, stock, specs, and compatible SKUs come from this file only. The app does not call DummyJSON at runtime.
-- **Search:** Deterministic keyword + filters in `lib/search.ts` (no search library, no LLM). Filters: category, price ceiling, in-stock, rating, brand. The query parser reads phrases such as `under ₹80,000` and `16 GB RAM`.
-- **Tools:** `searchProducts`, `getProductDetails`, `getCompatibleAddOns` in `lib/catalog.ts`, also exposed as GET `/api/catalog/search`, `/api/catalog/products?ids=`, `/api/catalog/addons`.
-- **Env:** Next.js `process.env`. Razorpay Test Mode variable names are reserved in `.env.example`. Checkout is not implemented.
-- **Not in this phase:** database, LLM, cart, payments, merchant dashboard, auth, vector search.
+- **Catalog:** Committed `data/products.json`. Runtime never calls DummyJSON.
+- **LLM:** `@google/genai` on the server only. Default model `gemini-2.5-flash`. The model does not choose arbitrary product ids or supply prices, stock, or specs.
+- **Events:** JSONL under `data/events/` for **local development only**. Gitignored. Not durable deployment storage; replace only when a later approved phase adds persistence.
+- **Eval prompts:** `data/evaluation-prompts.json` (20–30 fixed prompts). No results dashboard yet (Phase 6).
 
 See [docs/personas.md](docs/personas.md) and [docs/golden-path.md](docs/golden-path.md). Deferred work lives in [TODO.md](TODO.md).
 
@@ -57,10 +64,10 @@ See [docs/personas.md](docs/personas.md) and [docs/golden-path.md](docs/golden-p
 | `npm run build`| Production build     |
 | `npm run lint` | ESLint               |
 
-`data/products.json` is the only runtime catalog. `scripts/import-catalog.mjs` is an optional offline helper to regenerate that file from DummyJSON plus curated SKUs. It is **not** part of `npm run dev`, `npm run build`, or the demo. USD prices in DummyJSON were converted at a fixed **83 INR per USD**.
+`scripts/import-catalog.mjs` remains optional and is not part of `npm run dev` or `npm run build`.
 
-## Phase 1 scope
+## Phase 2 scope
 
-Implemented: local 50–100 product catalog, keyword search and filters, compatible-item links, trusted catalog tools.
+Implemented: chat buyer, structured intent, catalog-grounded recommendations (max 3), Why this? from seed facts, local event log, evaluation prompts.
 
-Not implemented: conversational AI, cart, merchant console, CSV import, upsell agent, Razorpay checkout, analytics, deployment.
+Not implemented: cart, merchant console, CSV import, upsell agent, Razorpay checkout, analytics dashboard, deployment.

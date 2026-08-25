@@ -1,6 +1,6 @@
 # Golden-path user journey
 
-Written target journey for the hackathon demo. **Catalog browse, search, and compatible-item facts are implemented in Phase 1.** Later steps stay documented for later phases.
+Written target journey for the hackathon demo. **Catalog search and the AI buyer chat are implemented through Phase 2.** Later steps stay documented for later phases.
 
 ## Story
 
@@ -15,11 +15,11 @@ Meera (home-office professional) needs a 27-inch USB-C monitor under ₹20,000 t
 7. **Razorpay Test Mode checkout** *(Phase 5)* — A fresh Razorpay order is created server-side. She pays with Test Mode cards. Signature and webhook verification update order state. No live payments.
 8. **Merchant analytics** *(Phase 3, 5, 6)* — The merchant console shows the search, recommendation, add-to-cart, payment success, and an audit trace of the journey.
 
-## Phase 1 slice
+## Phase 2 slice
 
 Today a developer can:
 
-1. Open the landing page.
-2. Go to **Products** and browse the full seeded catalog without any LLM.
-3. Search `laptop under ₹80,000 with 16 GB RAM` and see only matching in-stock laptops.
-4. Open a product detail page for trusted price, stock, and a **Compatible items** list (link, price, stock only).
+1. Browse and search the catalog without Gemini.
+2. Open **Assistant** and ask `laptop under ₹80,000 with 16 GB RAM`.
+3. See at most three in-stock, in-budget catalog cards with a **Why this?** panel built from seed fields.
+4. Click through to a product detail page. Nothing is added to a cart.

@@ -40,3 +40,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Phase 2 local-dev event logs (not deployment storage)
+/data/events/*
+!/data/events/.gitkeep

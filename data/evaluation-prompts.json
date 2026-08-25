@@ -1,0 +1,229 @@
+[
+  {
+    "id": "eval-01",
+    "prompt": "laptop under ₹80,000 with 16 GB RAM",
+    "expectFollowUp": false,
+    "constraints": {
+      "inStock": true,
+      "maxPrice": 80000,
+      "ramGb": 16,
+      "categoryHint": "laptops"
+    }
+  },
+  {
+    "id": "eval-02",
+    "prompt": "I need a laptop for college under 80000 with 16GB RAM, in stock",
+    "expectFollowUp": false,
+    "constraints": {
+      "inStock": true,
+      "maxPrice": 80000,
+      "ramGb": 16
+    }
+  },
+  {
+    "id": "eval-03",
+    "prompt": "hi",
+    "expectFollowUp": true,
+    "constraints": {}
+  },
+  {
+    "id": "eval-04",
+    "prompt": "something nice",
+    "expectFollowUp": true,
+    "constraints": {}
+  },
+  {
+    "id": "eval-05",
+    "prompt": "help me shop",
+    "expectFollowUp": true,
+    "constraints": {}
+  },
+  {
+    "id": "eval-06",
+    "prompt": "over-ear headphones with noise cancellation under ₹15,000",
+    "expectFollowUp": false,
+    "constraints": {
+      "inStock": true,
+      "maxPrice": 15000,
+      "categoryHint": "audio"
+    }
+  },
+  {
+    "id": "eval-07",
+    "prompt": "birthday gift headphones under 15000, must be in stock",
+    "expectFollowUp": false,
+    "constraints": {
+      "inStock": true,
+      "maxPrice": 15000
+    }
+  },
+  {
+    "id": "eval-08",
+    "prompt": "USB-C monitor under ₹20,000 in stock this week",
+    "expectFollowUp": false,
+    "constraints": {
+      "inStock": true,
+      "maxPrice": 20000,
+      "categoryHint": "monitors"
+    }
+  },
+  {
+    "id": "eval-09",
+    "prompt": "27-inch monitor with USB-C under 20000",
+    "expectFollowUp": false,
+    "constraints": {
+      "inStock": true,
+      "maxPrice": 20000
+    }
+  },
+  {
+    "id": "eval-10",
+    "prompt": "budget 8 GB RAM laptop under 50000",
+    "expectFollowUp": false,
+    "constraints": {
+      "inStock": true,
+      "maxPrice": 50000,
+      "ramGb": 8
+    }
+  },
+  {
+    "id": "eval-11",
+    "prompt": "mechanical keyboard",
+    "expectFollowUp": false,
+    "constraints": {
+      "inStock": true
+    }
+  },
+  {
+    "id": "eval-12",
+    "prompt": "wireless mouse under 2000",
+    "expectFollowUp": false,
+    "constraints": {
+      "inStock": true,
+      "maxPrice": 2000
+    }
+  },
+  {
+    "id": "eval-13",
+    "prompt": "15-inch laptop backpack",
+    "expectFollowUp": false,
+    "constraints": {
+      "inStock": true
+    }
+  },
+  {
+    "id": "eval-14",
+    "prompt": "1 TB portable SSD in stock",
+    "expectFollowUp": false,
+    "constraints": {
+      "inStock": true
+    }
+  },
+  {
+    "id": "eval-15",
+    "prompt": "power bank under 2500",
+    "expectFollowUp": false,
+    "constraints": {
+      "inStock": true,
+      "maxPrice": 2500
+    }
+  },
+  {
+    "id": "eval-16",
+    "prompt": "in-ear earbuds under 4000",
+    "expectFollowUp": false,
+    "constraints": {
+      "inStock": true,
+      "maxPrice": 4000
+    }
+  },
+  {
+    "id": "eval-17",
+    "prompt": "tablet under 40000 that is in stock",
+    "expectFollowUp": false,
+    "constraints": {
+      "inStock": true,
+      "maxPrice": 40000,
+      "categoryHint": "tablets"
+    }
+  },
+  {
+    "id": "eval-18",
+    "prompt": "smartphone under 20000, only if in stock",
+    "expectFollowUp": false,
+    "constraints": {
+      "inStock": true,
+      "maxPrice": 20000,
+      "categoryHint": "smartphones"
+    }
+  },
+  {
+    "id": "eval-19",
+    "prompt": "USB-C hub for my laptop",
+    "expectFollowUp": false,
+    "constraints": {
+      "inStock": true
+    }
+  },
+  {
+    "id": "eval-20",
+    "prompt": "1080p webcam for video calls",
+    "expectFollowUp": false,
+    "constraints": {
+      "inStock": true
+    }
+  },
+  {
+    "id": "eval-21",
+    "prompt": "24-inch monitor under 12000",
+    "expectFollowUp": false,
+    "constraints": {
+      "inStock": true,
+      "maxPrice": 12000
+    }
+  },
+  {
+    "id": "eval-22",
+    "prompt": "portable SSD under 10000",
+    "expectFollowUp": false,
+    "constraints": {
+      "inStock": true,
+      "maxPrice": 10000
+    }
+  },
+  {
+    "id": "eval-23",
+    "prompt": "Apple iPhone charger",
+    "expectFollowUp": false,
+    "constraints": {
+      "inStock": true
+    }
+  },
+  {
+    "id": "eval-24",
+    "prompt": "laptop under 70000 with 16 GB RAM",
+    "expectFollowUp": false,
+    "constraints": {
+      "inStock": true,
+      "maxPrice": 70000,
+      "ramGb": 16
+    }
+  },
+  {
+    "id": "eval-25",
+    "prompt": "Peak 32 GB RAM laptop if it is under 80000",
+    "expectFollowUp": false,
+    "constraints": {
+      "inStock": true,
+      "maxPrice": 80000
+    }
+  },
+  {
+    "id": "eval-26",
+    "prompt": "River 12 smartphone",
+    "expectFollowUp": false,
+    "constraints": {
+      "inStock": true
+    }
+  }
+]
