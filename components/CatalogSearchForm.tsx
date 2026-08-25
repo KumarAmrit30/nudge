@@ -23,8 +23,8 @@ export function CatalogSearchForm({
 
   return (
     <form
-      method="get"
-      action="/products"
+      method="post"
+      action="/api/events/search"
       className="mt-6 grid gap-4 rounded-xl border border-zinc-200 bg-white p-4 sm:grid-cols-2 lg:grid-cols-3"
     >
       <label className="flex flex-col gap-1 text-sm lg:col-span-3">

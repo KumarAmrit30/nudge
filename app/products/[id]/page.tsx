@@ -2,16 +2,15 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { CompatibleItems } from "@/components/CompatibleItems";
 import { ProductImage } from "@/components/ProductImage";
-import { getCompatibleAddOns, getProductById, getProducts } from "@/lib/catalog";
+import { getCompatibleAddOns, getProductById } from "@/lib/catalog";
 import { formatInr, stockLabel } from "@/lib/format";
+
+export const runtime = "nodejs";
+export const dynamic = "force-dynamic";
 
 type ProductDetailPageProps = {
   params: Promise<{ id: string }>;
 };
-
-export function generateStaticParams() {
-  return getProducts().map((product) => ({ id: product.id }));
-}
 
 export default async function ProductDetailPage({
   params,

@@ -12,8 +12,9 @@ export default function HomePage() {
       <p className="mt-6 max-w-xl text-lg leading-7 text-zinc-600">
         Buyers describe what they need. Nudge searches your products, explains
         trade-offs with real prices and stock, and helps them check out. This
-        Phase 2 build includes a chat assistant over the same catalog. Prices
-        and stock still come from seed data — never from the model.
+        Phase 3 build includes a merchant console for CSV import and readiness.
+        Prices and stock still come from local catalog data — never from the
+        model.
       </p>
       <div className="mt-10 flex flex-wrap gap-3">
         <Link
@@ -27,6 +28,12 @@ export default function HomePage() {
           className="inline-flex items-center rounded-full border border-zinc-300 bg-white px-6 py-3 text-sm font-medium text-zinc-900 hover:bg-zinc-100"
         >
           Browse products
+        </Link>
+        <Link
+          href="/merchant"
+          className="inline-flex items-center rounded-full border border-zinc-300 bg-white px-6 py-3 text-sm font-medium text-zinc-900 hover:bg-zinc-100"
+        >
+          Merchant console
         </Link>
       </div>
       <ul className="mt-16 grid gap-6 sm:grid-cols-3">
@@ -47,8 +54,8 @@ export default function HomePage() {
         <li className="rounded-xl border border-zinc-200 bg-white p-5">
           <h2 className="font-semibold text-zinc-900">Merchant view</h2>
           <p className="mt-2 text-sm leading-6 text-zinc-600">
-            Catalog readiness and conversion analytics are deferred until the
-            merchant console phase.
+            Catalog readiness and conversion analytics live in the merchant
+            console. Shopify connectors and auth are later.
           </p>
         </li>
       </ul>

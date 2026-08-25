@@ -1,11 +1,14 @@
 import { CatalogSearchForm } from "@/components/CatalogSearchForm";
 import { ProductCard } from "@/components/ProductCard";
-import { getProducts, searchProducts } from "@/lib/catalog";
+import { getProducts, isOverlayActive, searchProducts } from "@/lib/catalog";
 import {
   parseBooleanParam,
   parseNumberParam,
   parseStringParam,
 } from "@/lib/query-params";
+
+export const runtime = "nodejs";
+export const dynamic = "force-dynamic";
 
 type ProductsPageProps = {
   searchParams: Promise<Record<string, string | string[] | undefined>>;
@@ -41,8 +44,9 @@ export default async function ProductsPage({ searchParams }: ProductsPageProps) 
         Products
       </h1>
       <p className="mt-2 text-zinc-600">
-        Seeded catalog for the demo merchant. Prices and stock are from local
-        product data.
+        {isOverlayActive()
+          ? "Catalog from the merchant overlay. Prices and stock are from local product data."
+          : "Seeded catalog for the demo merchant. Prices and stock are from local product data."}
       </p>
       <CatalogSearchForm
         q={query ?? ""}

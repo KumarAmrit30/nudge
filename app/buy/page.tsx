@@ -7,7 +7,7 @@ export default function BuyPage() {
         Assistant
       </h1>
       <p className="mt-2 text-zinc-600">
-        Ask in natural language. Matches come from the seeded catalog. The
+        Ask in natural language. Matches come from the merchant catalog. The
         assistant does not add items to a cart.
       </p>
       <div className="mt-8">

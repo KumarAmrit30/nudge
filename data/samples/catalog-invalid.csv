@@ -1,0 +1,5 @@
+sku,title,description,category,price_inr,stock,image_url,brand,tags,specifications,compatible_skus
+OK-1,"Quoted, comma title","The ""escaped"" description, with a comma.",laptops,10000,3,https://example.com/ok.png,Nudge,ok,{},
+OK-1,Duplicate sku after a quoted comma,desc,laptops,10000,3,https://example.com/ok.png,Nudge,ok,{},
+BAD-TITLE,,missing title with quoted comma in other rows,laptops,5000,1,https://example.com/a.png,Nudge,tag,{},
+BAD-PRICE,Negative price,desc,laptops,-20,1,https://example.com/a.png,Nudge,tag,{},

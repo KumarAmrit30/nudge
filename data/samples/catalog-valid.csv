@@ -1,0 +1,4 @@
+sku,title,description,category,price_inr,stock,image_url,brand,tags,specifications,compatible_skus
+NUDGE-LAP-14,"Nudge ""Studio"" Laptop 14","A compact laptop, ready for lectures and notes.",laptops,74990,8,https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/1.webp,Nudge,laptop|16gb,"{""ram"":""16 GB""}",NUDGE-MS-WL
+NUDGE-MS-WL,Nudge Track Mouse,Wireless mouse for the Studio laptop.,accessories,1490,20,https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magic-mouse/1.webp,Nudge,mouse|wireless,{},
+NUDGE-CAM-HD,Nudge Cam HD,,accessories,2990,0,,Nudge,,,

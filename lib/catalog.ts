@@ -1,36 +1,85 @@
+import { existsSync, readFileSync, statSync } from "node:fs";
 import type { Product, SearchProductsInput } from "@/lib/types";
 import { searchProducts as filterProducts } from "@/lib/search";
-import products from "@/data/products.json";
+import {
+  OVERLAY_CATALOG_PATH,
+  SEED_CATALOG_PATH,
+} from "@/lib/merchant-paths";
 
-const catalog: Product[] = products as unknown as Product[];
+type CatalogCache = {
+  source: string;
+  mtimeMs: number;
+  products: Product[];
+};
+
+let cache: CatalogCache | null = null;
+
+function readCatalogFile(filePath: string): Product[] {
+  const parsed: unknown = JSON.parse(readFileSync(filePath, "utf8"));
+  if (!Array.isArray(parsed)) {
+    throw new Error(`Catalog at ${filePath} is not an array.`);
+  }
+  return parsed as Product[];
+}
+
+function loadProducts(): Product[] {
+  const overlay = existsSync(OVERLAY_CATALOG_PATH);
+  const source = overlay ? OVERLAY_CATALOG_PATH : SEED_CATALOG_PATH;
+  const mtimeMs = statSync(source).mtimeMs;
+  if (cache && cache.source === source && cache.mtimeMs === mtimeMs) {
+    return cache.products;
+  }
+
+  try {
+    const products = readCatalogFile(source);
+    cache = { source, mtimeMs, products };
+    return products;
+  } catch {
+    if (overlay) {
+      const products = readCatalogFile(SEED_CATALOG_PATH);
+      const seedMtime = statSync(SEED_CATALOG_PATH).mtimeMs;
+      cache = { source: SEED_CATALOG_PATH, mtimeMs: seedMtime, products };
+      return products;
+    }
+    throw new Error("Seed catalog could not be read.");
+  }
+}
+
+export function invalidateCatalogCache(): void {
+  cache = null;
+}
+
+export function isOverlayActive(): boolean {
+  return existsSync(OVERLAY_CATALOG_PATH);
+}
 
 export function getProducts(): Product[] {
-  return catalog;
+  return loadProducts();
 }
 
 export function getProductById(id: string): Product | undefined {
-  return catalog.find((product) => product.id === id);
+  return loadProducts().find((product) => product.id === id);
 }
 
 export function getProductBySku(sku: string): Product | undefined {
-  return catalog.find((product) => product.sku === sku);
+  return loadProducts().find((product) => product.sku === sku);
 }
 
 export function getCategories(): string[] {
-  return [...new Set(catalog.map((product) => product.category))].sort();
+  return [...new Set(loadProducts().map((product) => product.category))].sort();
 }
 
 export function getBrands(): string[] {
-  return [...new Set(catalog.map((product) => product.brand))].sort();
+  return [...new Set(loadProducts().map((product) => product.brand))].sort();
 }
 
 export function searchProducts(input: SearchProductsInput = {}): Product[] {
-  return filterProducts(catalog, input);
+  return filterProducts(loadProducts(), input);
 }
 
 export function getProductDetails(productIds: string[]): Product[] {
   const wanted = new Set(productIds);
-  return catalog.filter((product) => wanted.has(product.id));
+  return loadProducts().filter((product) => wanted.has(product.id));
 }
 
 export function getCompatibleAddOns(input: {

@@ -1,2 +1,2 @@
-# Local buyer event logs (Phase 2 development only).
+# Local event logs (Phase 2–3 development only).
 # JSONL files in this folder are gitignored and are not deployment storage.

@@ -44,3 +44,8 @@ next-env.d.ts
 # Phase 2 local-dev event logs (not deployment storage)
 /data/events/*
 !/data/events/.gitkeep
+
+# Phase 3 local merchant overlay and association state (never committed seed)
+/data/merchant-catalog.json
+/data/merchant-association-state.json
+/data/merchant-import-status.json

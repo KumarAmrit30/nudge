@@ -3,6 +3,9 @@ import { runBuyerTurn } from "@/lib/buyer";
 import { chatRequestSchema } from "@/lib/buyer-schemas";
 import { hasGeminiKey } from "@/lib/gemini";
 
+export const runtime = "nodejs";
+export const dynamic = "force-dynamic";
+
 export async function POST(request: Request) {
   if (!hasGeminiKey()) {
     return NextResponse.json(

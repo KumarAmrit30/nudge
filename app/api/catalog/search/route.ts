@@ -6,6 +6,9 @@ import {
   parseStringParam,
 } from "@/lib/query-params";
 
+export const runtime = "nodejs";
+export const dynamic = "force-dynamic";
+
 export function GET(request: NextRequest) {
   const params = request.nextUrl.searchParams;
   const query = parseStringParam(params.get("query") ?? params.get("q") ?? undefined);

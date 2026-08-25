@@ -2,10 +2,8 @@
 
 ## Deferred ideas
 
-- **Supabase/Postgres** as the catalog or event store. Phase 2 still uses committed JSON plus local JSONL. Earliest real need: merchant CSV persistence (Phase 3) or order/payment state (Phase 5).
-- **Durable event storage.** `data/events/*.jsonl` is Phase 2 local-dev recording only, not deployment persistence. Revisit when Phase 3 analytics or Phase 5 orders need durable logs.
-- **Merchant console, CSV import/validation, catalog readiness, suggested associations, basic analytics.** **Phase 3.**
-- **CSV parsing library** only if JSON.parse of a validated CSV pipeline is insufficient. **Phase 3.**
+- **Supabase/Postgres** as the catalog or event store. Phase 3 still uses a gitignored JSON overlay plus local JSONL. Earliest real need: order/payment state (Phase 5).
+- **Durable event storage.** `data/events/*.jsonl` is local-dev recording only, not deployment persistence. Revisit when Phase 5 orders need durable logs.
 - **Optional single upsell after explicit product selection**, with deterministic eligibility and session-level “no add-ons”. Compatible SKUs exist in the catalog but are not an upsell offer. **Phase 4.**
 - **Buyer cart, Razorpay Test Mode checkout, order/payment verification, webhooks.** **Phase 5.**
 - **Razorpay SDK / Checkout script / webhook tooling.** `.env.example` only reserves key names. **Phase 5.**
@@ -16,8 +14,9 @@
 - **Authentication, Redis, queues, Docker, analytics SaaS, Shopify/WooCommerce connectors.** Not on the frozen hackathon roadmap.
 - **Vector / semantic search (pgvector).** Explicitly not part of the frozen roadmap.
 
-Out-of-scope ideas noticed during Phase 2 (not implemented):
+Out-of-scope ideas noticed during Phase 3 (not implemented):
 
-- **Streaming chat tokens.** Request/response is enough for this phase. **Phase 7** if the live demo needs it.
+- **Streaming chat tokens.** Request/response is enough. **Phase 7** if the live demo needs it.
 - **Wiring `scripts/import-catalog.mjs` into npm scripts.** Must stay optional. **Phase 7** at earliest.
 - **Client-side live filtering without a form submit.** **Phase 7.**
+- **CSV parsing npm package.** In-repo RFC4180 parser plus Zod row validation covers the committed samples.
