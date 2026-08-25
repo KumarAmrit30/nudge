@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Mouse">
+  <rect width="800" height="600" fill="#f4f4f5"/>
+  <ellipse cx="400" cy="300" rx="70" ry="110" fill="#d4d4d8"/>
+  <line x1="400" y1="200" x2="400" y2="280" stroke="#a1a1aa" stroke-width="4"/>
+  <text x="400" y="450" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#52525b">Wireless mouse</text>
+</svg>

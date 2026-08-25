@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Portable SSD">
+  <rect width="800" height="600" fill="#f4f4f5"/>
+  <rect x="280" y="250" width="240" height="100" rx="16" fill="#d4d4d8"/>
+  <circle cx="320" cy="300" r="10" fill="#fafafa"/>
+  <text x="400" y="420" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#52525b">Portable SSD</text>
+</svg>

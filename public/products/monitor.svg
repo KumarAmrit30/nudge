@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Monitor">
+  <rect width="800" height="600" fill="#f4f4f5"/>
+  <rect x="200" y="140" width="400" height="250" rx="12" fill="#d4d4d8"/>
+  <rect x="220" y="160" width="360" height="210" fill="#fafafa"/>
+  <rect x="370" y="390" width="60" height="40" fill="#a1a1aa"/>
+  <rect x="320" y="430" width="160" height="12" rx="4" fill="#d4d4d8"/>
+  <text x="400" y="490" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#52525b">27-inch monitor</text>
+</svg>

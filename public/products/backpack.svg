@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Backpack">
+  <rect width="800" height="600" fill="#f4f4f5"/>
+  <rect x="300" y="180" width="200" height="240" rx="24" fill="#d4d4d8"/>
+  <rect x="330" y="220" width="140" height="90" rx="8" fill="#fafafa"/>
+  <text x="400" y="470" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#52525b">Laptop backpack</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Keyboard">
+  <rect width="800" height="600" fill="#f4f4f5"/>
+  <rect x="160" y="230" width="480" height="140" rx="16" fill="#d4d4d8"/>
+  <rect x="190" y="260" width="420" height="80" rx="8" fill="#fafafa"/>
+  <text x="400" y="430" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#52525b">Mechanical keyboard</text>
+</svg>

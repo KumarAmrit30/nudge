@@ -1,0 +1,1910 @@
+[
+  {
+    "id": "dj-78",
+    "merchant_id": "merchant-demo",
+    "sku": "LAP-APP-APP-078",
+    "title": "Apple MacBook Pro 14 Inch Space Grey",
+    "description": "The MacBook Pro 14 Inch in Space Grey is a powerful and sleek laptop, featuring Apple's M1 Pro chip for exceptional performance and a stunning Retina display.",
+    "category": "laptops",
+    "price_inr": 165999,
+    "rating": 3.7,
+    "stock": 24,
+    "brand": "Apple",
+    "tags": [
+      "laptops",
+      "apple"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/1.webp",
+    "specifications": {
+      "warranty": "3 year warranty"
+    },
+    "compatible_skus": [
+      "MS-TRACK-WL",
+      "BG-CARRY-15",
+      "SSD-FAST-1TB",
+      "PB-CHARGE-20K",
+      "KB-CLICK-TKL"
+    ]
+  },
+  {
+    "id": "dj-79",
+    "merchant_id": "merchant-demo",
+    "sku": "LAP-ASU-ASU-079",
+    "title": "Asus Zenbook Pro Dual Screen Laptop",
+    "description": "The Asus Zenbook Pro Dual Screen Laptop is a high-performance device with dual screens, providing productivity and versatility for creative professionals.",
+    "category": "laptops",
+    "price_inr": 149399,
+    "rating": 4,
+    "stock": 45,
+    "brand": "Asus",
+    "tags": [
+      "laptops"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/1.webp",
+    "specifications": {
+      "warranty": "3 year warranty"
+    },
+    "compatible_skus": [
+      "MS-TRACK-WL",
+      "BG-CARRY-15",
+      "SSD-FAST-1TB",
+      "PB-CHARGE-20K",
+      "KB-CLICK-TKL"
+    ]
+  },
+  {
+    "id": "dj-80",
+    "merchant_id": "merchant-demo",
+    "sku": "LAP-HUA-HUA-080",
+    "title": "Huawei Matebook X Pro",
+    "description": "The Huawei Matebook X Pro is a slim and stylish laptop with a high-resolution touchscreen display, offering a premium experience for users on the go.",
+    "category": "laptops",
+    "price_inr": 116199,
+    "rating": 5,
+    "stock": 75,
+    "brand": "Huawei",
+    "tags": [
+      "laptops"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/1.webp",
+    "specifications": {
+      "warranty": "No warranty"
+    },
+    "compatible_skus": [
+      "MS-TRACK-WL",
+      "BG-CARRY-15",
+      "SSD-FAST-1TB",
+      "PB-CHARGE-20K",
+      "KB-CLICK-TKL"
+    ]
+  },
+  {
+    "id": "dj-81",
+    "merchant_id": "merchant-demo",
+    "sku": "LAP-LEN-LEN-081",
+    "title": "Lenovo Yoga 920",
+    "description": "The Lenovo Yoga 920 is a 2-in-1 convertible laptop with a flexible hinge, allowing you to use it as a laptop or tablet, offering versatility and portability.",
+    "category": "laptops",
+    "price_inr": 91299,
+    "rating": 2.9,
+    "stock": 40,
+    "brand": "Lenovo",
+    "tags": [
+      "laptops"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp",
+    "specifications": {
+      "warranty": "6 months warranty"
+    },
+    "compatible_skus": [
+      "MS-TRACK-WL",
+      "BG-CARRY-15",
+      "SSD-FAST-1TB",
+      "PB-CHARGE-20K",
+      "KB-CLICK-TKL"
+    ]
+  },
+  {
+    "id": "dj-82",
+    "merchant_id": "merchant-demo",
+    "sku": "LAP-DEL-DEL-082",
+    "title": "New DELL XPS 13 9300 Laptop",
+    "description": "The New DELL XPS 13 9300 Laptop is a compact and powerful device, featuring a virtually borderless InfinityEdge display and high-end performance for various tasks.",
+    "category": "laptops",
+    "price_inr": 124499,
+    "rating": 2.7,
+    "stock": 74,
+    "brand": "Dell",
+    "tags": [
+      "laptops"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/1.webp",
+    "specifications": {
+      "warranty": "2 year warranty"
+    },
+    "compatible_skus": [
+      "MS-TRACK-WL",
+      "BG-CARRY-15",
+      "SSD-FAST-1TB",
+      "PB-CHARGE-20K",
+      "KB-CLICK-TKL"
+    ]
+  },
+  {
+    "id": "dj-99",
+    "merchant_id": "merchant-demo",
+    "sku": "MOB-AMA-AMA-099",
+    "title": "Amazon Echo Plus",
+    "description": "The Amazon Echo Plus is a smart speaker with built-in Alexa voice control. It features premium sound quality and serves as a hub for controlling smart home devices.",
+    "category": "mobile-accessories",
+    "price_inr": 8299,
+    "rating": 5,
+    "stock": 61,
+    "brand": "Amazon",
+    "tags": [
+      "electronics",
+      "smart speakers"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp",
+    "specifications": {
+      "warranty": "6 months warranty"
+    },
+    "compatible_skus": []
+  },
+  {
+    "id": "dj-100",
+    "merchant_id": "merchant-demo",
+    "sku": "MOB-APP-APP-100",
+    "title": "Apple Airpods",
+    "description": "The Apple Airpods offer a seamless wireless audio experience. With easy pairing, high-quality sound, and Siri integration, they are perfect for on-the-go listening.",
+    "category": "mobile-accessories",
+    "price_inr": 10789,
+    "rating": 4.2,
+    "stock": 67,
+    "brand": "Apple",
+    "tags": [
+      "electronics",
+      "wireless earphones"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/1.webp",
+    "specifications": {
+      "warranty": "3 year warranty"
+    },
+    "compatible_skus": []
+  },
+  {
+    "id": "dj-101",
+    "merchant_id": "merchant-demo",
+    "sku": "MOB-APP-APP-101",
+    "title": "Apple AirPods Max Silver",
+    "description": "The Apple AirPods Max in Silver are premium over-ear headphones with high-fidelity audio, adaptive EQ, and active noise cancellation. Experience immersive sound in style.",
+    "category": "mobile-accessories",
+    "price_inr": 45649,
+    "rating": 3.5,
+    "stock": 59,
+    "brand": "Apple",
+    "tags": [
+      "electronics",
+      "over-ear headphones"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/1.webp",
+    "specifications": {
+      "warranty": "No warranty"
+    },
+    "compatible_skus": []
+  },
+  {
+    "id": "dj-102",
+    "merchant_id": "merchant-demo",
+    "sku": "MOB-APP-APP-102",
+    "title": "Apple Airpower Wireless Charger",
+    "description": "The Apple AirPower Wireless Charger provides a convenient way to charge your compatible Apple devices wirelessly. Simply place your devices on the charging mat for effortless charging.",
+    "category": "mobile-accessories",
+    "price_inr": 6639,
+    "rating": 3.7,
+    "stock": 1,
+    "brand": "Apple",
+    "tags": [
+      "electronics",
+      "wireless chargers"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpower-wireless-charger/1.webp",
+    "specifications": {
+      "warranty": "2 year warranty"
+    },
+    "compatible_skus": []
+  },
+  {
+    "id": "dj-103",
+    "merchant_id": "merchant-demo",
+    "sku": "MOB-APP-APP-103",
+    "title": "Apple HomePod Mini Cosmic Grey",
+    "description": "The Apple HomePod Mini in Cosmic Grey is a compact smart speaker that delivers impressive audio and integrates seamlessly with the Apple ecosystem for a smart home experience.",
+    "category": "mobile-accessories",
+    "price_inr": 8299,
+    "rating": 4.6,
+    "stock": 27,
+    "brand": "Apple",
+    "tags": [
+      "electronics",
+      "smart speakers"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-homepod-mini-cosmic-grey/1.webp",
+    "specifications": {
+      "warranty": "3 months warranty"
+    },
+    "compatible_skus": []
+  },
+  {
+    "id": "dj-104",
+    "merchant_id": "merchant-demo",
+    "sku": "MOB-APP-APP-104",
+    "title": "Apple iPhone Charger",
+    "description": "The Apple iPhone Charger is a high-quality charger designed for fast and efficient charging of your iPhone. Ensure your device stays powered up and ready to go.",
+    "category": "mobile-accessories",
+    "price_inr": 1659,
+    "rating": 4.2,
+    "stock": 31,
+    "brand": "Apple",
+    "tags": [
+      "electronics",
+      "chargers"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/1.webp",
+    "specifications": {
+      "warranty": "1 year warranty"
+    },
+    "compatible_skus": []
+  },
+  {
+    "id": "dj-105",
+    "merchant_id": "merchant-demo",
+    "sku": "MOB-APP-APP-105",
+    "title": "Apple MagSafe Battery Pack",
+    "description": "The Apple MagSafe Battery Pack is a portable and convenient way to add extra battery life to your MagSafe-compatible iPhone. Attach it magnetically for a secure connection.",
+    "category": "mobile-accessories",
+    "price_inr": 8299,
+    "rating": 3.6,
+    "stock": 1,
+    "brand": "Apple",
+    "tags": [
+      "electronics",
+      "power banks"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp",
+    "specifications": {
+      "warranty": "2 year warranty"
+    },
+    "compatible_skus": []
+  },
+  {
+    "id": "dj-106",
+    "merchant_id": "merchant-demo",
+    "sku": "MOB-APP-APP-106",
+    "title": "Apple Watch Series 4 Gold",
+    "description": "The Apple Watch Series 4 in Gold is a stylish and advanced smartwatch with features like heart rate monitoring, fitness tracking, and a beautiful Retina display.",
+    "category": "mobile-accessories",
+    "price_inr": 29049,
+    "rating": 2.7,
+    "stock": 33,
+    "brand": "Apple",
+    "tags": [
+      "electronics",
+      "smartwatches"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/1.webp",
+    "specifications": {
+      "warranty": "6 months warranty"
+    },
+    "compatible_skus": []
+  },
+  {
+    "id": "dj-107",
+    "merchant_id": "merchant-demo",
+    "sku": "MOB-BEA-BEA-107",
+    "title": "Beats Flex Wireless Earphones",
+    "description": "The Beats Flex Wireless Earphones offer a comfortable and versatile audio experience. With magnetic earbuds and up to 12 hours of battery life, they are ideal for everyday use.",
+    "category": "mobile-accessories",
+    "price_inr": 4149,
+    "rating": 4.2,
+    "stock": 50,
+    "brand": "Beats",
+    "tags": [
+      "electronics",
+      "wireless earphones"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/beats-flex-wireless-earphones/1.webp",
+    "specifications": {
+      "warranty": "1 year warranty"
+    },
+    "compatible_skus": []
+  },
+  {
+    "id": "dj-108",
+    "merchant_id": "merchant-demo",
+    "sku": "MOB-APP-IPH-108",
+    "title": "iPhone 12 Silicone Case with MagSafe Plum",
+    "description": "The iPhone 12 Silicone Case with MagSafe in Plum is a stylish and protective case designed for the iPhone 12. It features MagSafe technology for easy attachment of accessories.",
+    "category": "mobile-accessories",
+    "price_inr": 2489,
+    "rating": 3.6,
+    "stock": 69,
+    "brand": "Apple",
+    "tags": [
+      "electronics",
+      "phone accessories"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/1.webp",
+    "specifications": {
+      "warranty": "3 months warranty"
+    },
+    "compatible_skus": []
+  },
+  {
+    "id": "dj-109",
+    "merchant_id": "merchant-demo",
+    "sku": "MOB-TEC-MON-109",
+    "title": "Monopod",
+    "description": "The Monopod is a versatile camera accessory for stable and adjustable shooting. Perfect for capturing selfies, group photos, and videos with ease.",
+    "category": "mobile-accessories",
+    "price_inr": 1659,
+    "rating": 4.4,
+    "stock": 48,
+    "brand": "TechGear",
+    "tags": [
+      "electronics",
+      "camera accessories"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/monopod/1.webp",
+    "specifications": {
+      "warranty": "1 year warranty"
+    },
+    "compatible_skus": []
+  },
+  {
+    "id": "dj-110",
+    "merchant_id": "merchant-demo",
+    "sku": "MOB-GAD-SEL-110",
+    "title": "Selfie Lamp with iPhone",
+    "description": "The Selfie Lamp with iPhone is a portable and adjustable LED light designed to enhance your selfies and video calls. Attach it to your iPhone for well-lit photos.",
+    "category": "mobile-accessories",
+    "price_inr": 1244,
+    "rating": 3.6,
+    "stock": 58,
+    "brand": "GadgetMaster",
+    "tags": [
+      "electronics",
+      "selfie accessories"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-lamp-with-iphone/1.webp",
+    "specifications": {
+      "warranty": "Lifetime warranty"
+    },
+    "compatible_skus": []
+  },
+  {
+    "id": "dj-111",
+    "merchant_id": "merchant-demo",
+    "sku": "MOB-SNA-SEL-111",
+    "title": "Selfie Stick Monopod",
+    "description": "The Selfie Stick Monopod is a extendable and foldable device for capturing the perfect selfie or group photo. Compatible with smartphones and cameras.",
+    "category": "mobile-accessories",
+    "price_inr": 1078,
+    "rating": 3.9,
+    "stock": 11,
+    "brand": "SnapTech",
+    "tags": [
+      "electronics",
+      "selfie accessories"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-stick-monopod/1.webp",
+    "specifications": {
+      "warranty": "3 year warranty"
+    },
+    "compatible_skus": []
+  },
+  {
+    "id": "dj-121",
+    "merchant_id": "merchant-demo",
+    "sku": "SMA-APP-IPH-121",
+    "title": "iPhone 5s",
+    "description": "The iPhone 5s is a classic smartphone known for its compact design and advanced features during its release. While it's an older model, it still provides a reliable user experience.",
+    "category": "smartphones",
+    "price_inr": 16599,
+    "rating": 2.8,
+    "stock": 25,
+    "brand": "Apple",
+    "tags": [
+      "smartphones",
+      "apple"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/1.webp",
+    "specifications": {
+      "warranty": "Lifetime warranty"
+    },
+    "compatible_skus": [
+      "PB-CHARGE-20K",
+      "CS-PHONE-CLR",
+      "HP-BUD-IN",
+      "MOB-APP-APP-104"
+    ]
+  },
+  {
+    "id": "dj-122",
+    "merchant_id": "merchant-demo",
+    "sku": "SMA-APP-IPH-122",
+    "title": "iPhone 6",
+    "description": "The iPhone 6 is a stylish and capable smartphone with a larger display and improved performance. It introduced new features and design elements, making it a popular choice in its time.",
+    "category": "smartphones",
+    "price_inr": 24899,
+    "rating": 3.4,
+    "stock": 60,
+    "brand": "Apple",
+    "tags": [
+      "smartphones",
+      "apple"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/1.webp",
+    "specifications": {
+      "warranty": "1 month warranty"
+    },
+    "compatible_skus": [
+      "PB-CHARGE-20K",
+      "CS-PHONE-CLR",
+      "HP-BUD-IN",
+      "MOB-APP-APP-104"
+    ]
+  },
+  {
+    "id": "dj-123",
+    "merchant_id": "merchant-demo",
+    "sku": "SMA-APP-IPH-123",
+    "title": "iPhone 13 Pro",
+    "description": "The iPhone 13 Pro is a cutting-edge smartphone with a powerful camera system, high-performance chip, and stunning display. It offers advanced features for users who demand top-notch technology.",
+    "category": "smartphones",
+    "price_inr": 91299,
+    "rating": 4.1,
+    "stock": 56,
+    "brand": "Apple",
+    "tags": [
+      "smartphones",
+      "apple"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/1.webp",
+    "specifications": {
+      "warranty": "3 year warranty"
+    },
+    "compatible_skus": [
+      "PB-CHARGE-20K",
+      "CS-PHONE-CLR",
+      "HP-BUD-IN",
+      "MOB-APP-APP-104"
+    ]
+  },
+  {
+    "id": "dj-124",
+    "merchant_id": "merchant-demo",
+    "sku": "SMA-APP-IPH-124",
+    "title": "iPhone X",
+    "description": "The iPhone X is a flagship smartphone featuring a bezel-less OLED display, facial recognition technology (Face ID), and impressive performance. It represents a milestone in iPhone design and innovation.",
+    "category": "smartphones",
+    "price_inr": 74699,
+    "rating": 2.5,
+    "stock": 37,
+    "brand": "Apple",
+    "tags": [
+      "smartphones",
+      "apple"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/1.webp",
+    "specifications": {
+      "warranty": "3 months warranty"
+    },
+    "compatible_skus": [
+      "PB-CHARGE-20K",
+      "CS-PHONE-CLR",
+      "HP-BUD-IN",
+      "MOB-APP-APP-104"
+    ]
+  },
+  {
+    "id": "dj-125",
+    "merchant_id": "merchant-demo",
+    "sku": "SMA-OPP-OPP-125",
+    "title": "Oppo A57",
+    "description": "The Oppo A57 is a mid-range smartphone known for its sleek design and capable features. It offers a balance of performance and affordability, making it a popular choice.",
+    "category": "smartphones",
+    "price_inr": 20749,
+    "rating": 3.9,
+    "stock": 19,
+    "brand": "Oppo",
+    "tags": [
+      "smartphones",
+      "oppo"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/1.webp",
+    "specifications": {
+      "warranty": "Lifetime warranty"
+    },
+    "compatible_skus": [
+      "PB-CHARGE-20K",
+      "CS-PHONE-CLR",
+      "HP-BUD-IN",
+      "MOB-APP-APP-104"
+    ]
+  },
+  {
+    "id": "dj-126",
+    "merchant_id": "merchant-demo",
+    "sku": "SMA-OPP-OPP-126",
+    "title": "Oppo F19 Pro Plus",
+    "description": "The Oppo F19 Pro Plus is a feature-rich smartphone with a focus on camera capabilities. It boasts advanced photography features and a powerful performance for a premium user experience.",
+    "category": "smartphones",
+    "price_inr": 33199,
+    "rating": 3.5,
+    "stock": 78,
+    "brand": "Oppo",
+    "tags": [
+      "smartphones",
+      "oppo"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/1.webp",
+    "specifications": {
+      "warranty": "3 year warranty"
+    },
+    "compatible_skus": [
+      "PB-CHARGE-20K",
+      "CS-PHONE-CLR",
+      "HP-BUD-IN",
+      "MOB-APP-APP-104"
+    ]
+  },
+  {
+    "id": "dj-127",
+    "merchant_id": "merchant-demo",
+    "sku": "SMA-OPP-OPP-127",
+    "title": "Oppo K1",
+    "description": "The Oppo K1 series offers a range of smartphones with various features and specifications. Known for their stylish design and reliable performance, the Oppo K1 series caters to diverse user preferences.",
+    "category": "smartphones",
+    "price_inr": 24899,
+    "rating": 4.3,
+    "stock": 55,
+    "brand": "Oppo",
+    "tags": [
+      "smartphones",
+      "oppo"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/1.webp",
+    "specifications": {
+      "warranty": "1 month warranty"
+    },
+    "compatible_skus": [
+      "PB-CHARGE-20K",
+      "CS-PHONE-CLR",
+      "HP-BUD-IN",
+      "MOB-APP-APP-104"
+    ]
+  },
+  {
+    "id": "dj-128",
+    "merchant_id": "merchant-demo",
+    "sku": "SMA-REA-REA-128",
+    "title": "Realme C35",
+    "description": "The Realme C35 is a budget-friendly smartphone with a focus on providing essential features for everyday use. It offers a reliable performance and user-friendly experience.",
+    "category": "smartphones",
+    "price_inr": 12449,
+    "rating": 4.2,
+    "stock": 48,
+    "brand": "Realme",
+    "tags": [
+      "smartphones",
+      "realme"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/1.webp",
+    "specifications": {
+      "warranty": "3 year warranty"
+    },
+    "compatible_skus": [
+      "PB-CHARGE-20K",
+      "CS-PHONE-CLR",
+      "HP-BUD-IN",
+      "MOB-APP-APP-104"
+    ]
+  },
+  {
+    "id": "dj-129",
+    "merchant_id": "merchant-demo",
+    "sku": "SMA-REA-REA-129",
+    "title": "Realme X",
+    "description": "The Realme X is a mid-range smartphone known for its sleek design and impressive display. It offers a good balance of performance and camera capabilities for users seeking a quality device.",
+    "category": "smartphones",
+    "price_inr": 24899,
+    "rating": 3.7,
+    "stock": 12,
+    "brand": "Realme",
+    "tags": [
+      "smartphones",
+      "realme"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/smartphones/realme-x/1.webp",
+    "specifications": {
+      "warranty": "1 month warranty"
+    },
+    "compatible_skus": [
+      "PB-CHARGE-20K",
+      "CS-PHONE-CLR",
+      "HP-BUD-IN",
+      "MOB-APP-APP-104"
+    ]
+  },
+  {
+    "id": "dj-130",
+    "merchant_id": "merchant-demo",
+    "sku": "SMA-REA-REA-130",
+    "title": "Realme XT",
+    "description": "The Realme XT is a feature-rich smartphone with a focus on camera technology. It comes equipped with advanced camera sensors, delivering high-quality photos and videos for photography enthusiasts.",
+    "category": "smartphones",
+    "price_inr": 29049,
+    "rating": 4.6,
+    "stock": 80,
+    "brand": "Realme",
+    "tags": [
+      "smartphones",
+      "realme"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/1.webp",
+    "specifications": {
+      "warranty": "3 year warranty"
+    },
+    "compatible_skus": [
+      "PB-CHARGE-20K",
+      "CS-PHONE-CLR",
+      "HP-BUD-IN",
+      "MOB-APP-APP-104"
+    ]
+  },
+  {
+    "id": "dj-131",
+    "merchant_id": "merchant-demo",
+    "sku": "SMA-SAM-SAM-131",
+    "title": "Samsung Galaxy S7",
+    "description": "The Samsung Galaxy S7 is a flagship smartphone known for its sleek design and advanced features. It features a high-resolution display, powerful camera, and robust performance.",
+    "category": "smartphones",
+    "price_inr": 24899,
+    "rating": 3.3,
+    "stock": 67,
+    "brand": "Samsung",
+    "tags": [
+      "smartphones",
+      "samsung galaxy"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/1.webp",
+    "specifications": {
+      "warranty": "3 months warranty"
+    },
+    "compatible_skus": [
+      "PB-CHARGE-20K",
+      "CS-PHONE-CLR",
+      "HP-BUD-IN",
+      "MOB-APP-APP-104"
+    ]
+  },
+  {
+    "id": "dj-132",
+    "merchant_id": "merchant-demo",
+    "sku": "SMA-SAM-SAM-132",
+    "title": "Samsung Galaxy S8",
+    "description": "The Samsung Galaxy S8 is a premium smartphone with an Infinity Display, offering a stunning visual experience. It boasts advanced camera capabilities and cutting-edge technology.",
+    "category": "smartphones",
+    "price_inr": 41499,
+    "rating": 4.4,
+    "stock": 0,
+    "brand": "Samsung",
+    "tags": [
+      "smartphones",
+      "samsung galaxy"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/1.webp",
+    "specifications": {
+      "warranty": "2 year warranty"
+    },
+    "compatible_skus": [
+      "PB-CHARGE-20K",
+      "CS-PHONE-CLR",
+      "HP-BUD-IN",
+      "MOB-APP-APP-104"
+    ]
+  },
+  {
+    "id": "dj-133",
+    "merchant_id": "merchant-demo",
+    "sku": "SMA-SAM-SAM-133",
+    "title": "Samsung Galaxy S10",
+    "description": "The Samsung Galaxy S10 is a flagship device featuring a dynamic AMOLED display, versatile camera system, and powerful performance. It represents innovation and excellence in smartphone technology.",
+    "category": "smartphones",
+    "price_inr": 58099,
+    "rating": 3.1,
+    "stock": 19,
+    "brand": "Samsung",
+    "tags": [
+      "smartphones",
+      "samsung galaxy"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/1.webp",
+    "specifications": {
+      "warranty": "No warranty"
+    },
+    "compatible_skus": [
+      "PB-CHARGE-20K",
+      "CS-PHONE-CLR",
+      "HP-BUD-IN",
+      "MOB-APP-APP-104"
+    ]
+  },
+  {
+    "id": "dj-134",
+    "merchant_id": "merchant-demo",
+    "sku": "SMA-VIV-VIV-134",
+    "title": "Vivo S1",
+    "description": "The Vivo S1 is a stylish and mid-range smartphone offering a blend of design and performance. It features a vibrant display, capable camera system, and reliable functionality.",
+    "category": "smartphones",
+    "price_inr": 20749,
+    "rating": 3.5,
+    "stock": 50,
+    "brand": "Vivo",
+    "tags": [
+      "smartphones",
+      "vivo"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/1.webp",
+    "specifications": {
+      "warranty": "6 months warranty"
+    },
+    "compatible_skus": [
+      "PB-CHARGE-20K",
+      "CS-PHONE-CLR",
+      "HP-BUD-IN",
+      "MOB-APP-APP-104"
+    ]
+  },
+  {
+    "id": "dj-135",
+    "merchant_id": "merchant-demo",
+    "sku": "SMA-VIV-VIV-135",
+    "title": "Vivo V9",
+    "description": "The Vivo V9 is a smartphone known for its sleek design and emphasis on capturing high-quality selfies. It features a notch display, dual-camera setup, and a modern design.",
+    "category": "smartphones",
+    "price_inr": 24899,
+    "rating": 3.6,
+    "stock": 82,
+    "brand": "Vivo",
+    "tags": [
+      "smartphones",
+      "vivo"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/1.webp",
+    "specifications": {
+      "warranty": "2 year warranty"
+    },
+    "compatible_skus": [
+      "PB-CHARGE-20K",
+      "CS-PHONE-CLR",
+      "HP-BUD-IN",
+      "MOB-APP-APP-104"
+    ]
+  },
+  {
+    "id": "dj-136",
+    "merchant_id": "merchant-demo",
+    "sku": "SMA-VIV-VIV-136",
+    "title": "Vivo X21",
+    "description": "The Vivo X21 is a premium smartphone with a focus on cutting-edge technology. It features an in-display fingerprint sensor, a high-resolution display, and advanced camera capabilities.",
+    "category": "smartphones",
+    "price_inr": 41499,
+    "rating": 4.3,
+    "stock": 7,
+    "brand": "Vivo",
+    "tags": [
+      "smartphones",
+      "vivo"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/1.webp",
+    "specifications": {
+      "warranty": "1 year warranty"
+    },
+    "compatible_skus": [
+      "PB-CHARGE-20K",
+      "CS-PHONE-CLR",
+      "HP-BUD-IN",
+      "MOB-APP-APP-104"
+    ]
+  },
+  {
+    "id": "dj-159",
+    "merchant_id": "merchant-demo",
+    "sku": "TAB-APP-IPA-159",
+    "title": "iPad Mini 2021 Starlight",
+    "description": "The iPad Mini 2021 in Starlight is a compact and powerful tablet from Apple. Featuring a stunning Retina display, powerful A-series chip, and a sleek design, it offers a premium tablet experience.",
+    "category": "tablets",
+    "price_inr": 41499,
+    "rating": 3.2,
+    "stock": 47,
+    "brand": "Apple",
+    "tags": [
+      "electronics",
+      "tablets"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/1.webp",
+    "specifications": {
+      "warranty": "2 year warranty"
+    },
+    "compatible_skus": [
+      "MOB-APP-APP-104",
+      "SSD-FAST-1TB"
+    ]
+  },
+  {
+    "id": "dj-160",
+    "merchant_id": "merchant-demo",
+    "sku": "TAB-SAM-SAM-160",
+    "title": "Samsung Galaxy Tab S8 Plus Grey",
+    "description": "The Samsung Galaxy Tab S8 Plus in Grey is a high-performance Android tablet by Samsung. With a large AMOLED display, powerful processor, and S Pen support, it's ideal for productivity and entertainment.",
+    "category": "tablets",
+    "price_inr": 49799,
+    "rating": 4.7,
+    "stock": 62,
+    "brand": "Samsung",
+    "tags": [
+      "electronics",
+      "tablets"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/1.webp",
+    "specifications": {
+      "warranty": "3 months warranty"
+    },
+    "compatible_skus": [
+      "MOB-APP-APP-104",
+      "SSD-FAST-1TB"
+    ]
+  },
+  {
+    "id": "dj-161",
+    "merchant_id": "merchant-demo",
+    "sku": "TAB-SAM-SAM-161",
+    "title": "Samsung Galaxy Tab White",
+    "description": "The Samsung Galaxy Tab in White is a sleek and versatile Android tablet. With a vibrant display, long-lasting battery, and a range of features, it offers a great user experience for various tasks.",
+    "category": "tablets",
+    "price_inr": 29049,
+    "rating": 3.7,
+    "stock": 92,
+    "brand": "Samsung",
+    "tags": [
+      "electronics",
+      "tablets"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/1.webp",
+    "specifications": {
+      "warranty": "3 months warranty"
+    },
+    "compatible_skus": [
+      "MOB-APP-APP-104",
+      "SSD-FAST-1TB"
+    ]
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [
+      "MS-TRACK-WL",
+      "BG-CARRY-15",
+      "SSD-FAST-1TB",
+      "PB-CHARGE-20K",
+      "KB-CLICK-TKL"
+    ],
+    "id": "prod-001",
+    "sku": "NB-AURA-16-512",
+    "title": "AuraBook 14 Laptop (16 GB / 512 GB)",
+    "description": "A 14-inch everyday laptop for study and light work. Ships with 16 GB RAM, 512 GB SSD, and a full-size keyboard.",
+    "category": "laptops",
+    "price_inr": 74990,
+    "rating": 4.5,
+    "stock": 12,
+    "brand": "Aura",
+    "tags": [
+      "laptop",
+      "16gb-ram",
+      "student",
+      "windows"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/1.webp",
+    "specifications": {
+      "ram": "16 GB",
+      "storage": "512 GB SSD",
+      "display": "14-inch FHD",
+      "processor": "Intel Core i5",
+      "os": "Windows 11"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [
+      "MS-TRACK-WL",
+      "BG-CARRY-15",
+      "SSD-FAST-1TB",
+      "PB-CHARGE-20K",
+      "KB-CLICK-TKL"
+    ],
+    "id": "prod-002",
+    "sku": "NB-NEXUS-8-256",
+    "title": "Nexus Lite 15 Laptop (8 GB / 256 GB)",
+    "description": "A budget 15-inch laptop for browsing, documents, and video. 8 GB RAM and 256 GB storage.",
+    "category": "laptops",
+    "price_inr": 42990,
+    "rating": 4.1,
+    "stock": 8,
+    "brand": "Nexus",
+    "tags": [
+      "laptop",
+      "8gb-ram",
+      "budget"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/1.webp",
+    "specifications": {
+      "ram": "8 GB",
+      "storage": "256 GB SSD",
+      "display": "15.6-inch FHD",
+      "processor": "Intel Core i3",
+      "os": "Windows 11"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [
+      "MS-TRACK-WL",
+      "BG-CARRY-15",
+      "SSD-FAST-1TB",
+      "PB-CHARGE-20K",
+      "KB-CLICK-TKL"
+    ],
+    "id": "prod-003",
+    "sku": "NB-PEAK-32-1TB",
+    "title": "Peak Pro 16 Laptop (32 GB / 1 TB)",
+    "description": "A 16-inch performance laptop for design and development. 32 GB RAM, 1 TB SSD, and a high-refresh display.",
+    "category": "laptops",
+    "price_inr": 129990,
+    "rating": 4.7,
+    "stock": 4,
+    "brand": "Peak",
+    "tags": [
+      "laptop",
+      "32gb-ram",
+      "creator"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/laptops/macbook-pro/1.webp",
+    "specifications": {
+      "ram": "32 GB",
+      "storage": "1 TB SSD",
+      "display": "16-inch QHD",
+      "processor": "Intel Core i7",
+      "os": "Windows 11"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [
+      "PB-CHARGE-10K"
+    ],
+    "id": "prod-004",
+    "sku": "HP-SONIC-OVER",
+    "title": "Sonic Over-Ear Headphones",
+    "description": "Wireless over-ear headphones with active noise cancellation and 30-hour battery life.",
+    "category": "audio",
+    "price_inr": 12990,
+    "rating": 4.6,
+    "stock": 25,
+    "brand": "Sonic",
+    "tags": [
+      "headphones",
+      "anc",
+      "gift"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/1.webp",
+    "specifications": {
+      "type": "Over-ear",
+      "connectivity": "Bluetooth 5.3",
+      "battery": "30 hours",
+      "noise_cancellation": "Yes"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [
+      "PB-CHARGE-10K"
+    ],
+    "id": "prod-005",
+    "sku": "HP-BUD-IN",
+    "title": "Pulse In-Ear Earbuds",
+    "description": "Compact wireless earbuds with a charging case. Suited for calls and commuting.",
+    "category": "audio",
+    "price_inr": 3490,
+    "rating": 4.2,
+    "stock": 40,
+    "brand": "Pulse",
+    "tags": [
+      "earbuds",
+      "budget",
+      "wireless"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/1.webp",
+    "specifications": {
+      "type": "In-ear",
+      "connectivity": "Bluetooth 5.2",
+      "battery": "6 hours + case",
+      "noise_cancellation": "No"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [
+      "MS-TRACK-WL"
+    ],
+    "id": "prod-006",
+    "sku": "KB-CLICK-TKL",
+    "title": "ClickForge Mechanical Keyboard",
+    "description": "Tenkeyless mechanical keyboard with hot-swappable switches and RGB lighting.",
+    "category": "accessories",
+    "price_inr": 7990,
+    "rating": 4.4,
+    "stock": 18,
+    "brand": "ClickForge",
+    "tags": [
+      "keyboard",
+      "mechanical",
+      "desk-setup"
+    ],
+    "image_url": "/products/keyboard.svg",
+    "specifications": {
+      "layout": "TKL",
+      "switches": "Hot-swappable",
+      "backlight": "RGB",
+      "connection": "USB-C"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [
+      "KB-CLICK-TKL"
+    ],
+    "id": "prod-007",
+    "sku": "MS-TRACK-WL",
+    "title": "TrackFlow Wireless Mouse",
+    "description": "Ergonomic wireless mouse with a silent click and USB-C rechargeable battery.",
+    "category": "accessories",
+    "price_inr": 1990,
+    "rating": 4.3,
+    "stock": 50,
+    "brand": "TrackFlow",
+    "tags": [
+      "mouse",
+      "wireless"
+    ],
+    "image_url": "/products/mouse.svg",
+    "specifications": {
+      "connectivity": "2.4 GHz wireless",
+      "dpi": "1600",
+      "battery": "Rechargeable USB-C",
+      "buttons": "6"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [
+      "KB-CLICK-TKL",
+      "MS-TRACK-WL"
+    ],
+    "id": "prod-008",
+    "sku": "MN-CLEAR-27",
+    "title": "ClearView 27-inch Monitor",
+    "description": "27-inch IPS monitor with USB-C power delivery for a single-cable laptop desk setup.",
+    "category": "monitors",
+    "price_inr": 18990,
+    "rating": 4.5,
+    "stock": 9,
+    "brand": "ClearView",
+    "tags": [
+      "monitor",
+      "usb-c",
+      "home-office"
+    ],
+    "image_url": "/products/monitor.svg",
+    "specifications": {
+      "size": "27-inch",
+      "resolution": "2560 x 1440",
+      "panel": "IPS",
+      "refresh_rate": "75 Hz",
+      "ports": "HDMI, USB-C"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [],
+    "id": "prod-009",
+    "sku": "BG-CARRY-15",
+    "title": "CarryAll 15-inch Laptop Backpack",
+    "description": "Padded backpack with a 15-inch laptop sleeve, bottle pocket, and water-resistant fabric.",
+    "category": "bags",
+    "price_inr": 2490,
+    "rating": 4.4,
+    "stock": 30,
+    "brand": "CarryAll",
+    "tags": [
+      "backpack",
+      "laptop",
+      "student"
+    ],
+    "image_url": "/products/backpack.svg",
+    "specifications": {
+      "laptop_sleeve": "15-inch",
+      "material": "Water-resistant polyester",
+      "pockets": "3",
+      "weight": "720 g"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [],
+    "id": "prod-010",
+    "sku": "SSD-FAST-1TB",
+    "title": "FastDrive 1 TB Portable SSD",
+    "description": "USB-C portable SSD for backups and media. 1 TB capacity with a compact metal body.",
+    "category": "storage",
+    "price_inr": 8990,
+    "rating": 4.6,
+    "stock": 15,
+    "brand": "FastDrive",
+    "tags": [
+      "ssd",
+      "storage",
+      "usb-c"
+    ],
+    "image_url": "/products/ssd.svg",
+    "specifications": {
+      "capacity": "1 TB",
+      "interface": "USB-C 10 Gbps",
+      "form_factor": "Portable",
+      "encryption": "Hardware password"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [
+      "PB-CHARGE-20K",
+      "CS-PHONE-CLR",
+      "HP-BUD-IN",
+      "MOB-APP-APP-104"
+    ],
+    "id": "prod-011",
+    "sku": "PH-RIVER-128",
+    "title": "River 12 Smartphone (8 GB / 128 GB)",
+    "description": "A mid-range smartphone with 8 GB RAM, a 50 MP camera, and a 5000 mAh battery. Currently out of stock.",
+    "category": "smartphones",
+    "price_inr": 18999,
+    "rating": 4.3,
+    "stock": 0,
+    "brand": "River",
+    "tags": [
+      "smartphone",
+      "mid-range",
+      "8gb-ram"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/1.webp",
+    "specifications": {
+      "ram": "8 GB",
+      "storage": "128 GB",
+      "battery": "5000 mAh",
+      "camera": "50 MP"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [],
+    "id": "prod-012",
+    "sku": "PB-CHARGE-20K",
+    "title": "ChargeKeep 20000 mAh Power Bank",
+    "description": "Dual-port 20000 mAh power bank with 30W USB-C output for phones and compact laptops.",
+    "category": "accessories",
+    "price_inr": 2290,
+    "rating": 4.2,
+    "stock": 22,
+    "brand": "ChargeKeep",
+    "tags": [
+      "power-bank",
+      "travel",
+      "usb-c"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-charger/1.webp",
+    "specifications": {
+      "capacity": "20000 mAh",
+      "output": "30W USB-C",
+      "ports": "USB-C, USB-A",
+      "weight": "340 g"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [
+      "MS-TRACK-WL",
+      "BG-CARRY-15",
+      "SSD-FAST-1TB",
+      "PB-CHARGE-20K",
+      "KB-CLICK-TKL"
+    ],
+    "id": "prod-013",
+    "sku": "NB-LEAF-16-512",
+    "title": "LeafBook 15 Laptop (16 GB / 512 GB)",
+    "description": "A 15.6-inch laptop for college work. Includes 16 GB RAM, 512 GB SSD, and a numeric keypad.",
+    "category": "laptops",
+    "price_inr": 78990,
+    "rating": 4.3,
+    "stock": 7,
+    "brand": "Leaf",
+    "tags": [
+      "laptop",
+      "16gb-ram",
+      "student"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp",
+    "specifications": {
+      "ram": "16 GB",
+      "storage": "512 GB SSD",
+      "display": "15.6-inch FHD",
+      "processor": "AMD Ryzen 5",
+      "os": "Windows 11"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [
+      "MS-TRACK-WL",
+      "BG-CARRY-15",
+      "SSD-FAST-1TB",
+      "PB-CHARGE-20K",
+      "KB-CLICK-TKL"
+    ],
+    "id": "prod-014",
+    "sku": "NB-NEXUS-16-512",
+    "title": "Nexus 14 Laptop (16 GB / 512 GB)",
+    "description": "A compact 14-inch laptop with 16 GB RAM and 512 GB SSD for travel and office work.",
+    "category": "laptops",
+    "price_inr": 64990,
+    "rating": 4.4,
+    "stock": 10,
+    "brand": "Nexus",
+    "tags": [
+      "laptop",
+      "16gb-ram",
+      "portable"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/1.webp",
+    "specifications": {
+      "ram": "16 GB",
+      "storage": "512 GB SSD",
+      "display": "14-inch FHD",
+      "processor": "Intel Core i5",
+      "os": "Windows 11"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [
+      "MS-TRACK-WL",
+      "BG-CARRY-15",
+      "SSD-FAST-1TB",
+      "PB-CHARGE-20K",
+      "KB-CLICK-TKL"
+    ],
+    "id": "prod-015",
+    "sku": "NB-AURA-16-256",
+    "title": "AuraBook 14 Laptop (16 GB / 256 GB)",
+    "description": "Same 14-inch AuraBook chassis with 16 GB RAM and a 256 GB SSD for a lower price.",
+    "category": "laptops",
+    "price_inr": 69990,
+    "rating": 4.2,
+    "stock": 5,
+    "brand": "Aura",
+    "tags": [
+      "laptop",
+      "16gb-ram",
+      "student"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/2.webp",
+    "specifications": {
+      "ram": "16 GB",
+      "storage": "256 GB SSD",
+      "display": "14-inch FHD",
+      "processor": "Intel Core i5",
+      "os": "Windows 11"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [
+      "MS-TRACK-WL",
+      "BG-CARRY-15",
+      "SSD-FAST-1TB",
+      "PB-CHARGE-20K",
+      "KB-CLICK-TKL"
+    ],
+    "id": "prod-016",
+    "sku": "NB-AURA-16-OOS",
+    "title": "AuraBook 15 Laptop (16 GB / 512 GB)",
+    "description": "A 15-inch AuraBook with 16 GB RAM and 512 GB SSD. Currently out of stock.",
+    "category": "laptops",
+    "price_inr": 72990,
+    "rating": 4.4,
+    "stock": 0,
+    "brand": "Aura",
+    "tags": [
+      "laptop",
+      "16gb-ram"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/2.webp",
+    "specifications": {
+      "ram": "16 GB",
+      "storage": "512 GB SSD",
+      "display": "15.6-inch FHD",
+      "processor": "Intel Core i5",
+      "os": "Windows 11"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [
+      "MS-TRACK-WL",
+      "BG-CARRY-15",
+      "SSD-FAST-1TB",
+      "PB-CHARGE-20K",
+      "KB-CLICK-TKL"
+    ],
+    "id": "prod-017",
+    "sku": "NB-PEAK-16-1TB",
+    "title": "Peak 16 Laptop (16 GB / 1 TB)",
+    "description": "A 16-inch Peak laptop with 16 GB RAM and 1 TB SSD. Priced above ₹80,000.",
+    "category": "laptops",
+    "price_inr": 99990,
+    "rating": 4.6,
+    "stock": 3,
+    "brand": "Peak",
+    "tags": [
+      "laptop",
+      "16gb-ram",
+      "creator"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/laptops/macbook-pro/2.webp",
+    "specifications": {
+      "ram": "16 GB",
+      "storage": "1 TB SSD",
+      "display": "16-inch QHD",
+      "processor": "Intel Core i7",
+      "os": "Windows 11"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [
+      "MS-TRACK-WL",
+      "BG-CARRY-15",
+      "SSD-FAST-1TB",
+      "PB-CHARGE-20K",
+      "KB-CLICK-TKL"
+    ],
+    "id": "prod-018",
+    "sku": "NB-NEXUS-8-512",
+    "title": "Nexus 15 Laptop (8 GB / 512 GB)",
+    "description": "A 15-inch Nexus laptop with 8 GB RAM and 512 GB SSD for everyday use.",
+    "category": "laptops",
+    "price_inr": 48990,
+    "rating": 4,
+    "stock": 6,
+    "brand": "Nexus",
+    "tags": [
+      "laptop",
+      "8gb-ram"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/2.webp",
+    "specifications": {
+      "ram": "8 GB",
+      "storage": "512 GB SSD",
+      "display": "15.6-inch FHD",
+      "processor": "Intel Core i3",
+      "os": "Windows 11"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [
+      "PB-CHARGE-10K"
+    ],
+    "id": "prod-019",
+    "sku": "HP-SONIC-BUD",
+    "title": "Sonic Earbuds Pro",
+    "description": "In-ear wireless earbuds with ANC and a USB-C charging case.",
+    "category": "audio",
+    "price_inr": 6990,
+    "rating": 4.5,
+    "stock": 20,
+    "brand": "Sonic",
+    "tags": [
+      "earbuds",
+      "anc",
+      "wireless"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/beats-flex-wireless-earphones/1.webp",
+    "specifications": {
+      "type": "In-ear",
+      "connectivity": "Bluetooth 5.3",
+      "battery": "8 hours + case",
+      "noise_cancellation": "Yes"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [
+      "PB-CHARGE-10K"
+    ],
+    "id": "prod-020",
+    "sku": "HP-PULSE-OVER",
+    "title": "Pulse Over-Ear Headphones",
+    "description": "Wired-free over-ear headphones without noise cancellation.",
+    "category": "audio",
+    "price_inr": 4990,
+    "rating": 4.1,
+    "stock": 14,
+    "brand": "Pulse",
+    "tags": [
+      "headphones",
+      "budget"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/2.webp",
+    "specifications": {
+      "type": "Over-ear",
+      "connectivity": "Bluetooth 5.1",
+      "battery": "20 hours",
+      "noise_cancellation": "No"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [
+      "MS-TRACK-WL"
+    ],
+    "id": "prod-021",
+    "sku": "KB-CLICK-FULL",
+    "title": "ClickForge Full-size Keyboard",
+    "description": "Full-size mechanical keyboard with a number pad and USB-C.",
+    "category": "accessories",
+    "price_inr": 8990,
+    "rating": 4.5,
+    "stock": 11,
+    "brand": "ClickForge",
+    "tags": [
+      "keyboard",
+      "mechanical"
+    ],
+    "image_url": "/products/keyboard.svg",
+    "specifications": {
+      "layout": "Full-size",
+      "switches": "Hot-swappable",
+      "backlight": "White",
+      "connection": "USB-C"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [
+      "KB-CLICK-TKL"
+    ],
+    "id": "prod-022",
+    "sku": "MS-TRACK-BT",
+    "title": "TrackFlow Bluetooth Mouse",
+    "description": "Compact Bluetooth mouse for laptops. Two-device pairing.",
+    "category": "accessories",
+    "price_inr": 1490,
+    "rating": 4.2,
+    "stock": 28,
+    "brand": "TrackFlow",
+    "tags": [
+      "mouse",
+      "bluetooth"
+    ],
+    "image_url": "/products/mouse.svg",
+    "specifications": {
+      "connectivity": "Bluetooth 5.0",
+      "dpi": "1200",
+      "battery": "AA",
+      "buttons": "4"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [],
+    "id": "prod-023",
+    "sku": "HB-USBC-7",
+    "title": "PortNest USB-C Hub (7-port)",
+    "description": "USB-C hub with HDMI, USB-A, SD, and 100W pass-through.",
+    "category": "accessories",
+    "price_inr": 3490,
+    "rating": 4.3,
+    "stock": 16,
+    "brand": "PortNest",
+    "tags": [
+      "hub",
+      "usb-c",
+      "laptop"
+    ],
+    "image_url": "/products/ssd.svg",
+    "specifications": {
+      "ports": "HDMI, 2x USB-A, USB-C, SD, microSD",
+      "power_passthrough": "100W",
+      "connection": "USB-C"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [],
+    "id": "prod-024",
+    "sku": "WC-FRAME-1080",
+    "title": "FrameCam 1080p Webcam",
+    "description": "1080p webcam with a built-in microphone for video calls.",
+    "category": "accessories",
+    "price_inr": 2490,
+    "rating": 4.1,
+    "stock": 19,
+    "brand": "FrameCam",
+    "tags": [
+      "webcam",
+      "home-office"
+    ],
+    "image_url": "/products/monitor.svg",
+    "specifications": {
+      "resolution": "1080p",
+      "microphone": "Yes",
+      "connection": "USB-A",
+      "fov": "78 degree"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [],
+    "id": "prod-025",
+    "sku": "CB-USBC-2M",
+    "title": "ChargeKeep USB-C Cable 2 m",
+    "description": "2-metre USB-C to USB-C cable rated for 60W charging.",
+    "category": "accessories",
+    "price_inr": 490,
+    "rating": 4,
+    "stock": 60,
+    "brand": "ChargeKeep",
+    "tags": [
+      "cable",
+      "usb-c"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/1.webp",
+    "specifications": {
+      "length": "2 m",
+      "rating": "60W",
+      "connectors": "USB-C to USB-C"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [],
+    "id": "prod-026",
+    "sku": "ST-LAP-COOL",
+    "title": "AirLift Laptop Stand",
+    "description": "Aluminium laptop stand that raises a 13–16 inch laptop.",
+    "category": "accessories",
+    "price_inr": 1990,
+    "rating": 4.4,
+    "stock": 13,
+    "brand": "AirLift",
+    "tags": [
+      "stand",
+      "laptop",
+      "desk-setup"
+    ],
+    "image_url": "/products/monitor.svg",
+    "specifications": {
+      "material": "Aluminium",
+      "size_range": "13-16 inch",
+      "adjustable": "Yes"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [
+      "KB-CLICK-TKL",
+      "MS-TRACK-WL"
+    ],
+    "id": "prod-027",
+    "sku": "MN-CLEAR-24",
+    "title": "ClearView 24-inch Monitor",
+    "description": "24-inch FHD IPS monitor with HDMI and VGA.",
+    "category": "monitors",
+    "price_inr": 9990,
+    "rating": 4.2,
+    "stock": 12,
+    "brand": "ClearView",
+    "tags": [
+      "monitor",
+      "home-office"
+    ],
+    "image_url": "/products/monitor.svg",
+    "specifications": {
+      "size": "24-inch",
+      "resolution": "1920 x 1080",
+      "panel": "IPS",
+      "refresh_rate": "75 Hz",
+      "ports": "HDMI, VGA"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [
+      "KB-CLICK-TKL",
+      "MS-TRACK-WL"
+    ],
+    "id": "prod-028",
+    "sku": "MN-CLEAR-32",
+    "title": "ClearView 32-inch Monitor",
+    "description": "32-inch QHD monitor with USB-C and speakers.",
+    "category": "monitors",
+    "price_inr": 24990,
+    "rating": 4.4,
+    "stock": 4,
+    "brand": "ClearView",
+    "tags": [
+      "monitor",
+      "usb-c"
+    ],
+    "image_url": "/products/monitor.svg",
+    "specifications": {
+      "size": "32-inch",
+      "resolution": "2560 x 1440",
+      "panel": "IPS",
+      "refresh_rate": "75 Hz",
+      "ports": "HDMI, USB-C"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [
+      "KB-CLICK-TKL",
+      "MS-TRACK-WL"
+    ],
+    "id": "prod-029",
+    "sku": "MN-PEAK-27",
+    "title": "Peak 27-inch 144 Hz Monitor",
+    "description": "27-inch 144 Hz IPS monitor for desk use.",
+    "category": "monitors",
+    "price_inr": 22990,
+    "rating": 4.6,
+    "stock": 6,
+    "brand": "Peak",
+    "tags": [
+      "monitor",
+      "144hz"
+    ],
+    "image_url": "/products/monitor.svg",
+    "specifications": {
+      "size": "27-inch",
+      "resolution": "2560 x 1440",
+      "panel": "IPS",
+      "refresh_rate": "144 Hz",
+      "ports": "HDMI, DisplayPort"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [],
+    "id": "prod-030",
+    "sku": "SSD-FAST-512",
+    "title": "FastDrive 512 GB Portable SSD",
+    "description": "512 GB USB-C portable SSD in a compact metal body.",
+    "category": "storage",
+    "price_inr": 4990,
+    "rating": 4.5,
+    "stock": 21,
+    "brand": "FastDrive",
+    "tags": [
+      "ssd",
+      "usb-c"
+    ],
+    "image_url": "/products/ssd.svg",
+    "specifications": {
+      "capacity": "512 GB",
+      "interface": "USB-C 10 Gbps",
+      "form_factor": "Portable"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [],
+    "id": "prod-031",
+    "sku": "SSD-FAST-2TB",
+    "title": "FastDrive 2 TB Portable SSD",
+    "description": "2 TB USB-C portable SSD for large backups.",
+    "category": "storage",
+    "price_inr": 14990,
+    "rating": 4.7,
+    "stock": 8,
+    "brand": "FastDrive",
+    "tags": [
+      "ssd",
+      "usb-c"
+    ],
+    "image_url": "/products/ssd.svg",
+    "specifications": {
+      "capacity": "2 TB",
+      "interface": "USB-C 10 Gbps",
+      "form_factor": "Portable"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [],
+    "id": "prod-032",
+    "sku": "FD-FLASH-256",
+    "title": "FastDrive 256 GB USB-C Flash Drive",
+    "description": "256 GB USB-C flash drive for files and presentations.",
+    "category": "storage",
+    "price_inr": 1490,
+    "rating": 4.1,
+    "stock": 35,
+    "brand": "FastDrive",
+    "tags": [
+      "flash-drive",
+      "usb-c"
+    ],
+    "image_url": "/products/ssd.svg",
+    "specifications": {
+      "capacity": "256 GB",
+      "interface": "USB-C",
+      "form_factor": "Stick"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [],
+    "id": "prod-033",
+    "sku": "BG-CARRY-13",
+    "title": "CarryAll 13-inch Laptop Sleeve",
+    "description": "Padded sleeve for 13-inch laptops.",
+    "category": "bags",
+    "price_inr": 1290,
+    "rating": 4.3,
+    "stock": 24,
+    "brand": "CarryAll",
+    "tags": [
+      "sleeve",
+      "laptop"
+    ],
+    "image_url": "/products/backpack.svg",
+    "specifications": {
+      "laptop_sleeve": "13-inch",
+      "material": "Neoprene"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [],
+    "id": "prod-034",
+    "sku": "BG-CARRY-MESS",
+    "title": "CarryAll Messenger Bag",
+    "description": "Messenger bag with a 15-inch laptop sleeve.",
+    "category": "bags",
+    "price_inr": 3490,
+    "rating": 4.4,
+    "stock": 9,
+    "brand": "CarryAll",
+    "tags": [
+      "messenger",
+      "laptop"
+    ],
+    "image_url": "/products/backpack.svg",
+    "specifications": {
+      "laptop_sleeve": "15-inch",
+      "material": "Canvas",
+      "pockets": "4"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [],
+    "id": "prod-035",
+    "sku": "PB-CHARGE-10K",
+    "title": "ChargeKeep 10000 mAh Power Bank",
+    "description": "Compact 10000 mAh power bank with 20W USB-C output.",
+    "category": "accessories",
+    "price_inr": 1490,
+    "rating": 4.1,
+    "stock": 33,
+    "brand": "ChargeKeep",
+    "tags": [
+      "power-bank",
+      "usb-c"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp",
+    "specifications": {
+      "capacity": "10000 mAh",
+      "output": "20W USB-C",
+      "ports": "USB-C, USB-A"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [],
+    "id": "prod-036",
+    "sku": "PB-CHARGE-30K",
+    "title": "ChargeKeep 30000 mAh Power Bank",
+    "description": "High-capacity 30000 mAh power bank with 45W USB-C output.",
+    "category": "accessories",
+    "price_inr": 3490,
+    "rating": 4.3,
+    "stock": 10,
+    "brand": "ChargeKeep",
+    "tags": [
+      "power-bank",
+      "travel"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/2.webp",
+    "specifications": {
+      "capacity": "30000 mAh",
+      "output": "45W USB-C",
+      "ports": "2x USB-C, USB-A"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [],
+    "id": "prod-037",
+    "sku": "CS-PHONE-CLR",
+    "title": "ClearFit Universal Phone Case",
+    "description": "Clear TPU case that fits most mid-size smartphones.",
+    "category": "accessories",
+    "price_inr": 790,
+    "rating": 4,
+    "stock": 40,
+    "brand": "ClearFit",
+    "tags": [
+      "case",
+      "smartphone"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/1.webp",
+    "specifications": {
+      "material": "TPU",
+      "type": "Clear case"
+    }
+  },
+  {
+    "merchant_id": "merchant-demo",
+    "compatible_skus": [],
+    "id": "prod-038",
+    "sku": "GL-PHONE-TEM",
+    "title": "TemperGuard Phone Glass",
+    "description": "Tempered glass screen protector for common phone sizes.",
+    "category": "accessories",
+    "price_inr": 490,
+    "rating": 3.9,
+    "stock": 55,
+    "brand": "TemperGuard",
+    "tags": [
+      "glass",
+      "smartphone"
+    ],
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/2.webp",
+    "specifications": {
+      "material": "Tempered glass",
+      "hardness": "9H"
+    }
+  }
+]
